@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+  <title>Orbis — Cosmic Refreshment</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <header id="main-header">
+    <div class="container nav-container">
+      <div class="logo">
+        <img src="assets/images/logo.png" alt="Orbis Logo" class="logo-img">
+        <h1>ORBIS</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#intro">Home</a></li>
+          <li><a href="#crimson">Crimson</a></li>
+          <li><a href="#zest">Zest</a></li>
+          <li><a href="#bloom">Bloom</a></li>
+          <li><a href="#peel">Peel</a></li>
+        </ul>
+      </nav>
+      <div class="auth">
+        <button class="icon-btn" id="cart-btn">
+          <i class="fas fa-shopping-cart"></i>
+          <span class="cart-count">0</span>
+        </button>
+        <button class="mobile-menu-btn" id="mobile-menu-btn">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobile-menu">
+    <button class="close-menu-btn" id="close-menu-btn">&times;</button>
+    <ul>
+      <li><a href="#intro">Home</a></li>
+      <li><a href="#crimson">Crimson</a></li>
+      <li><a href="#zest">Zest</a></li>
+      <li><a href="#bloom">Bloom</a></li>
+      <li><a href="#peel">Peel</a></li>
+    </ul>
+  </div>
+
+  <section id="intro" class="hero intro">
+    <div class="background-image" style="background-image: url('assets/images/intro.png');"></div>
+    <div class="content">
+      <h2>ARE YOU READY FOR A COSMIC SIP?</h2>
+      <p>This is not just a drink. This is a cosmic experience.</p>
+      <button class="launch-btn" id="launch-btn">LAUNCH NOW 🚀</button>
+    </div>
+  </section>
+
+  <!-- Second Layer - Introduction Section -->
+  <section id="intro-layer-2" class="hero intro-layer-2">
+    <div class="background-image" style="background-image: url('assets/images/Layer2-Mentahan.png'); background-size: cover; background-position: center;"></div>
+    <div class="stars"></div>
+    <div class="content">
+      <div class="products-grid">
+        <div class="product-item">
+          <img src="assets/images/crimson-can.png" alt="Crimson Orbit" class="can crimson-can">
+          <div class="can-explain crimson-explain">
+            <h3>CRIMSON ORBIT</h3>
+            <p>Planet: Watermelon</p>
+            <p>Origin: Tropical forests of Earth</p>
+            <p>Mission: To deliver pure, juicy refreshment</p>
+          </div>
+        </div>
+        
+        <div class="product-item">
+          <img src="assets/images/zest-can.png" alt="Solar Zest" class="can zest-can">
+          <div class="can-explain zest-explain">
+            <h3>SOLAR ZEST</h3>
+            <p>Planet: Lemon</p>
+            <p>Origin: Sun-drenched groves</p>
+            <p>Mission: To energize your day with natural brightness</p>
+          </div>
+        </div>
+        
+        <div class="product-item">
+          <img src="assets/images/bloom-can.png" alt="Nova Bloom" class="can bloom-can">
+          <div class="can-explain bloom-explain">
+            <h3>NOVA BLOOM</h3>
+            <p>Planet: Strawberry</p>
+            <p>Origin: Berry-rich fields</p>
+            <p>Mission: To explode with flavor, not sugar</p>
+          </div>
+        </div>
+        
+        <div class="product-item">
+          <img src="assets/images/peel-can.png" alt="Titan Peel" class="can peel-can">
+          <div class="can-explain peel-explain">
+            <h3>TITAN PEEL</h3>
+            <p>Planet: Banana</p>
+            <p>Origin: Rainforest canopies</p>
+            <p>Mission: To smooth your journey with creamy sweetness</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="crimson" class="hero crimson">
+    <div class="background-layer" style="background-image: url('assets/images/background-crimson.png');"></div>
+    <div class="reflective-surface"></div>
+    <div class="content">
+      <img src="assets/images/CRIMSON-teks.png" alt="CRIMSON" class="title-text title-text-1">
+      <img src="assets/images/CRIMSON-teks2.png" alt="CRIMSON" class="title-text title-text-2">
+      <div class="can-wrapper">
+        <img src="assets/images/crimson-can.png" alt="Crimson Orbit" class="can-image">
+        <div class="fruits-container">
+          <img src="assets/images/watermelon.png" alt="Watermelon" class="fruit fruit-1">
+          <img src="assets/images/watermelon.png" alt="Watermelon" class="fruit fruit-2">
+          <img src="assets/images/watermelon.png" alt="Watermelon" class="fruit fruit-3">
+          <img src="assets/images/watermelon.png" alt="Watermelon" class="fruit fruit-4">
+        </div>
+        <button class="orbit-btn" data-flavor="Crimson Orbit" data-price="30000">
+          ORBIT THIS FLAVOUR 👋
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <section id="zest" class="hero solar">
+    <div class="background-layer" style="background-image: url('assets/images/background-zest.png');"></div>
+    <div class="reflective-surface"></div>
+    <div class="content">
+      <img src="assets/images/ZEST-teks.png" alt="ZEST" class="title-text title-text-1">
+      <img src="assets/images/ZEST-teks2.png" alt="ZEST" class="title-text title-text-2">
+      <div class="can-wrapper">
+        <img src="assets/images/zest-can.png" alt="Solar Zest" class="can-image">
+        <div class="fruits-container">
+          <img src="assets/images/lemon.png" alt="Lemon" class="fruit fruit-1">
+          <img src="assets/images/lemon.png" alt="Lemon" class="fruit fruit-2">
+          <img src="assets/images/lemon.png" alt="Lemon" class="fruit fruit-3">
+          <img src="assets/images/lemon.png" alt="Lemon" class="fruit fruit-4">
+        </div>
+        <button class="orbit-btn" data-flavor="Solar Zest" data-price="30000">
+          ORBIT THIS FLAVOUR 👋
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <section id="bloom" class="hero nova">
+    <div class="background-layer" style="background-image: url('assets/images/background-bloom.png');"></div>
+    <div class="reflective-surface"></div>
+    <div class="content">
+      <img src="assets/images/BLOOM-teks.png" alt="BLOOM" class="title-text title-text-1">
+      <img src="assets/images/BLOOM-teks2.png" alt="BLOOM" class="title-text title-text-2">
+      <div class="can-wrapper">
+        <img src="assets/images/bloom-can.png" alt="Nova Bloom" class="can-image">
+        <div class="fruits-container">
+          <img src="assets/images/stawberry.png" alt="Strawberry" class="fruit fruit-1">
+          <img src="assets/images/stawberry.png" alt="Strawberry" class="fruit fruit-2">
+          <img src="assets/images/stawberry.png" alt="Strawberry" class="fruit fruit-3">
+          <img src="assets/images/stawberry.png" alt="Strawberry" class="fruit fruit-4">
+        </div>
+        <button class="orbit-btn" data-flavor="Nova Bloom" data-price="30000">
+          ORBIT THIS FLAVOUR 👋
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <section id="peel" class="hero titan">
+    <div class="background-layer" style="background-image: url('assets/images/background-peel.png');"></div>
+    <div class="reflective-surface"></div>
+    <div class="content">
+      <img src="assets/images/PEEL-teks.png" alt="PEEL" class="title-text title-text-1">
+      <img src="assets/images/PEEL-teks2.png" alt="PEEL" class="title-text title-text-2">
+      <div class="can-wrapper">
+        <img src="assets/images/peel-can.png" alt="Titan Peel" class="can-image">
+        <div class="fruits-container">
+          <img src="assets/images/banana.png" alt="Banana" class="fruit fruit-1">
+          <img src="assets/images/banana.png" alt="Banana" class="fruit fruit-2">
+          <img src="assets/images/banana.png" alt="Banana" class="fruit fruit-3">
+          <img src="assets/images/banana.png" alt="Banana" class="fruit fruit-4">
+        </div>
+        <button class="orbit-btn" data-flavor="Titan Peel" data-price="30000">
+          ORBIT THIS FLAVOUR 👋
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>© 2025 Orbis. Cosmic refreshment for Earthlings and beyond.</p>
+      
+      <div class="contact-info">
+        <div class="contact-item">
+          <i class="fas fa-envelope"></i>
+          <span>Email: <a href="mailto:fatihaj2216@gmail.com">fatihaj2216@gmail.com</a></span>
+        </div>
+        <div class="contact-item">
+          <i class="fab fa-whatsapp"></i>
+          <span>WhatsApp: <a href="https://wa.me/6281296911592" target="_blank">081296911592</a></span>
+        </div>
+      </div>
+
+      <div class="rating-section">
+        <h3>Rate Our Service</h3>
+        <div class="rating-stars">
+          <i class="fas fa-star" data-rating="1"></i>
+          <i class="fas fa-star" data-rating="2"></i>
+          <i class="fas fa-star" data-rating="3"></i>
+          <i class="fas fa-star" data-rating="4"></i>
+          <i class="fas fa-star" data-rating="5"></i>
+        </div>
+        <p class="rating-text">Click to rate</p>
+      </div>
+
+      <div class="social">
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-tiktok"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <div class="modal-overlay" id="modal-overlay"></div>
+
+  <div class="modal" id="cart-modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3>Your Cart (<span id="cart-count-modal">0</span>)</h3>
+        <button class="close-btn" id="close-cart">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div id="cart-items">
+          </div>
+        <div class="cart-summary">
+          <div class="summary-row">
+            <span>Subtotal</span>
+            <span id="subtotal">Rp 0.000</span>
+          </div>
+          <div class="summary-row total">
+            <span><strong>Total</strong></span>
+            <span id="total"><strong>Rp 0.000</strong></span>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn-outline" id="clear-cart">Clear Cart</button>
+        <button class="btn-primary" id="checkout-btn">Checkout</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Checkout Success Popup -->
+  <div class="modal-overlay" id="success-overlay"></div>
+  <div class="success-modal" id="success-modal">
+    <div class="success-content">
+      <div class="success-icon">
+        <i class="fas fa-check-circle"></i>
+      </div>
+      <h2>Order Placed Successfully!</h2>
+      <p>Thank you for your purchase. Your cosmic refreshment is on its way!</p>
+      <div class="order-details">
+        <p>Total: <span id="success-total">Rp 0.000</span></p>
+        <p>Items: <span id="success-items">0</span></p>
+      </div>
+      <button class="btn-primary" id="close-success">Continue Shopping</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
